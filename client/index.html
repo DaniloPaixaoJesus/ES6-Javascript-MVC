@@ -9,7 +9,7 @@
 </head>
 <body class="container">
     
-    <h1 class="text-center">Negociações Manager</h1>
+    <h1 class="text-center">Negociações</h1>
     
     <div id="mensagemView"></div>
     
@@ -37,7 +37,7 @@
         <button class="btn btn-primary text-center" type="button">
             Importar Negociações
         </button>
-        <button class="btn btn-primary text-center" type="button">
+        <button onclick="negociacaoController.apaga()" class="btn btn-primary text-center" type="button">
             Apagar
         </button>
     </div> 
@@ -57,5 +57,6 @@
     <script>
         let negociacaoController = new NegociacaoController();
     </script>
+    
 </body>
 </html>
